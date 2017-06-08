@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<!--view class="container" style="width:400px;height:620px;background-image:url(../imgs/back.jpg)"-->
+<view class="container">
+  <view bindtap="bindViewTap" class="userinfo">
+    <text class="welcome">{{hello}}{{welcome}}</text>
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <text bindtap="onclick" class="module">{{module1}} {{module2}} {{module3}}</text>
+  </view>
+</view>
